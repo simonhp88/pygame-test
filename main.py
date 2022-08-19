@@ -127,7 +127,7 @@ class Background():
         self.bgX1 -= self.moving_speed
         self.bgX2 -= self.moving_speed
         if self.bgX1 <= -self.rectBGimg.width:
-            self.bgX1 = self.rectBGimg.SCREEN_WIDTH
+            self.bgX1 = self.rectBGimg.width
         if self.bgX2 <= -self.rectBGimg.width:
             self.bgX2 = self.rectBGimg.width
     #Once new XY coords are set render both images
